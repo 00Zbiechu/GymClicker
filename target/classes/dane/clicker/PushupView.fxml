@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="343.0" prefWidth="409.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dane.clicker.GameController">
+<AnchorPane prefHeight="343.0" prefWidth="409.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dane.clicker.PushupController">
    <children>
       <ImageView fx:id="releaseIMG" fitHeight="290.0" fitWidth="392.0" layoutX="12.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -30,5 +29,17 @@
             <Font size="19.0" />
          </font>
       </Button>
+      <ImageView fx:id="wpcOn" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/BezBialeczka.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wpcOff" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" onMouseClicked="#useWpc" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/Białeczko.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="296.0" layoutY="258.0" mnemonicParsing="false" onAction="#changeToSquats" text="Przysiady" />
+      <Button layoutX="288.0" layoutY="298.0" mnemonicParsing="false" onAction="#changeToPullups" text="Podciąganie" />
    </children>
 </AnchorPane>

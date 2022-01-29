@@ -14,6 +14,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(Main.class.getResource("MenuView.fxml"));
         Scene scene = new Scene(loader.load());
         stage.setTitle("GymClicker");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
 

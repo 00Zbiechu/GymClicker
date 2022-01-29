@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="343.0" prefWidth="409.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dane.clicker.SquatController">
+   <children>
+      <ImageView fx:id="releaseIMG" fitHeight="167.0" fitWidth="302.0" layoutX="73.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/pgora.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pushIMG" fitHeight="167.0" fitWidth="302.0" layoutX="72.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/pdol.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="resultToShow" alignment="CENTER" layoutX="95.0" layoutY="52.0" prefHeight="16.0" prefWidth="221.0" text="Ilość punktów : 0" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="156.0" layoutY="262.0" mnemonicParsing="false" onMousePressed="#push" onMouseReleased="#release" text="SIADAJ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="wpcOn" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/BezBialeczka.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wpcOff" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" onMouseClicked="#useWpc" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Zasoby/Białeczko.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="307.0" layoutY="258.0" mnemonicParsing="false" onAction="#changeToPushup" text="Pompki" />
+      <Button layoutX="288.0" layoutY="298.0" mnemonicParsing="false" onAction="#changeToPullups" text="Podciąganie" />
+   </children>
+</AnchorPane>
