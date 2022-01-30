@@ -34,7 +34,7 @@
             <Image url="@Zasoby/BezBialeczka.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="wpcOff" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" onMouseClicked="#useWpc" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="wpcOff" fitHeight="88.0" fitWidth="97.0" layoutX="26.0" layoutY="226.0" onMouseClicked="#useWpc" pickOnBounds="true" preserveRatio="true" scaleZ="2.0">
          <image>
             <Image url="@Zasoby/Białeczko.png" />
          </image>

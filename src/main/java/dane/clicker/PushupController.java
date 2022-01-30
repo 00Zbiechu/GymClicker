@@ -99,6 +99,7 @@ public class PushupController {
         scoresToAdd = 2;
         wpcUsed=true;
         wpcOff.setViewOrder(2);
+        wpcOn.setViewOrder(1);
 
     }
 
@@ -106,6 +107,7 @@ public class PushupController {
 
        if(wpcUsed){
            wpcOff.setViewOrder(2);
+           wpcOn.setViewOrder(1);
            scoresToAdd =2;
        }
     }
