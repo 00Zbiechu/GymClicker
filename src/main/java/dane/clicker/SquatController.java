@@ -25,6 +25,7 @@ public class SquatController extends PushupController {
         pushupController.setScores(this.getScores());
         pushupController.setWpcStatus(getWpcStatus());
         pushupController.ifWpcUsed(getWpcStatus());
+        pushupController.showScores();
 
     }
 

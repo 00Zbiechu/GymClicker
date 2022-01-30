@@ -57,6 +57,7 @@ public class PushupController {
 
     public void setScores(int scores){this.scores=scores;}
 
+
     public void showScores(){
 
         resultToShow.setText("Ilość punktów = "+getScores());
@@ -123,6 +124,7 @@ public class PushupController {
         squatController.setScores(this.getScores());
         squatController.setWpcStatus(getWpcStatus());
         squatController.ifWpcUsed(getWpcStatus());
+        squatController.showScores();
 
     }
 
@@ -141,6 +143,7 @@ public class PushupController {
         pullupsController.setScores(this.getScores());
         pullupsController.setWpcStatus(getWpcStatus());
         pullupsController.ifWpcUsed(getWpcStatus());
+        pullupsController.showScores();
 
     }
 
