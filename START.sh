@@ -1,2 +1,4 @@
 #!/bin/bash
-java --module-path javafx-sdk-17.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar Clicker.jar
+echo "Podaj sciezke do katalogu lib JavaFX"
+read path
+java --module-path $path --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar Clicker.jar
