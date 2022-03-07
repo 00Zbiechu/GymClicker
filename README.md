@@ -1,3 +1,2 @@
-# GymClicker
-
-Aplikacja typu clicker o tematyce związanej z kulturystyką, która polega na wykonywaniu ćwiczeń. W aplikacji zaimplementowany został licznik zdobytych pkt oraz booster podnoszący możliwości zawodnika. Enjoy!
+Clicker about bodybuilding topic, allows you to do various activities and earn points. There are point multipliers in the form of supplements in the game.  The version is available only in the Polish language version. Enjoy
+Its my third application. I used JavaFX to create it. 
