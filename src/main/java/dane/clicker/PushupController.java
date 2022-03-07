@@ -19,32 +19,32 @@ public class PushupController {
 
     //FXML
     @FXML
-    Label resultToShow;
+    private Label resultToShow;
 
     @FXML
-    ImageView pushIMG;
+    private ImageView pushIMG;
 
     @FXML
-    ImageView releaseIMG;
+    private ImageView releaseIMG;
 
     @FXML
-    ImageView wpcOn;
+    private ImageView wpcOn;
 
     @FXML
-    ImageView wpcOff;
+    private ImageView wpcOff;
 
 
     //GUI
-    Stage stage;
-    Scene scene;
-    Parent root;
-    Node node;
+    protected Stage stage;
+    protected Scene scene;
+    protected Parent root;
+    protected Node node;
 
 
     //Var
-    int scores=0;
-    int scoresToAdd=1;
-    boolean wpcUsed;
+    private int scores=0;
+    private int scoresToAdd=1;
+    private boolean wpcUsed;
 
 
     public void addScores(){

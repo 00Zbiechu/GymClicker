@@ -14,10 +14,10 @@ import java.io.IOException;
 public class MenuController {
 
     //GUI
-    Stage stage;
-    Scene scene;
-    Parent root;
-    Node node;
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+    private Node node;
 
     public void startGame(ActionEvent event) throws IOException {
 
